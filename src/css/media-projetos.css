@@ -1,0 +1,71 @@
+@media only screen and (max-width: 720px){
+    body{
+        font-family: 'poppins', sans-serif;
+        max-width: 385px;
+        margin: 0 auto;
+        color: #131314;
+
+    }
+
+    h3{
+        display: flex;
+        justify-content: center;
+        margin-left: 2%;
+        color: white;
+    }
+    .card-projects{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+        justify-content: center;
+    }
+    .card-img{
+        width: 85%;
+        display: flex;
+        flex-direction: column;
+        margin-left: 2%;
+        /* justify-content: space-between; */
+        padding: 15px;
+        border: 2px solid white;
+        border-radius: 15px;
+    }
+
+    .redirect-edit{
+        margin-top: 20px;
+        margin-left: 2%;
+        width: 0 auto;
+        height: 0 auto;
+        padding: 15px;
+        border-radius: 15px;
+        font-size: 15px;
+    }
+
+    .menu-superior,
+    .edit-ul-menu {
+        flex-direction: column;
+    }
+
+    .edit-ul-menu {
+        text-align: center;
+        margin: 0;
+        height: 0;
+    }
+
+    .menu-superior {
+        padding-top: 0;
+        align-items: flex-start;
+    }
+
+    .logo-menu {
+        margin: 10px;
+    }
+
+    .btn-menu {
+        display: flex;
+    }
+
+    .edit-ul-menu,
+    .edit-li-menu {
+        width: 100%;
+    }
+}

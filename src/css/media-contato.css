@@ -1,0 +1,56 @@
+@media only screen and (max-width: 720px){
+    body{
+        font-family: 'Poppins', sans-serif;
+        color: #131314;
+        background-color: rgb(37, 37, 37);
+    }
+    
+    h1{
+        color: white;
+        display: flex;
+        justify-content: center;
+    }
+
+    .img-contruction{
+        margin: 0 auto;
+        width: 350px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .contato-linkedin,
+    .contato-email{
+        display: flex;
+        justify-content: center;
+        padding-top: 10px;
+    }
+
+    .menu-superior,
+    .edit-ul-menu {
+        flex-direction: column;
+    }
+
+    .edit-ul-menu {
+        text-align: center;
+        margin: 0;
+        height: 0;
+    }
+
+    .menu-superior {
+        padding-top: 0;
+        align-items: flex-start;
+    }
+
+    .logo-menu {
+        margin: 10px;
+    }
+
+    .btn-menu {
+        display: flex;
+    }
+
+    .edit-ul-menu,
+    .edit-li-menu {
+        width: 100%;
+    }
+}
