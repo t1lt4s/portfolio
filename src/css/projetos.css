@@ -6,17 +6,6 @@ body{
     background-color: rgb(37, 37, 37);
 }
 
-h1{
-    display: flex;
-    justify-content: center;
-    color: #5263CC ;
-}
-h3{
-    display: flex;
-    justify-content: center;
-    color: white;
-}
-
 
 .menu-superior{
     background-color: rgb(37, 37, 37);
@@ -79,6 +68,25 @@ h3{
 }
 
 
+
+
+.title-projects h1{
+    margin: 0;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    color: #5263CC ;
+}
+.title-projects h3{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.card-image{
+    margin: 0;
+    margin-top: 50px;
+}
 .card-projects{
     display: flex;
     flex-wrap: wrap;
@@ -86,7 +94,7 @@ h3{
     justify-content: center;
 }
 .card-img{
-    width: 400px;
+    width: 500px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;

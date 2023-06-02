@@ -72,11 +72,14 @@ h1{
 }
 
 
-.img-contruction{
-    width: 720px;
+.img-construction{
+    margin: 0;
+    padding: 0;
+    width: 550px;
     display: flex;
     justify-content: center;
-    margin-left: 30%;
+    align-items: center;
+    margin-left: 35%;
 }
 
 .contato-linkedin,
