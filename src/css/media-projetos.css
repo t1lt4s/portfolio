@@ -1,166 +1,63 @@
-@media only screen and (max-width: 800px){
-    body{
-        font-family: 'poppins', sans-serif;
-        max-width: 800px;
-        margin: 0 auto;
-        color: #131314;
-    }
-
-
-    .logo-menu{
-        display: none;
-    }
-
-
-    .menu-superior,
-    .edit-ul-menu {
-        flex-direction: column;
-    }
-
-    .edit-ul-menu {
-        text-align: center;
-        margin: 0;
-        height: 0;
-    }
-
-    .menu-superior {
-        padding-top: 0;
-        align-items: flex-start;
-    }
-
-    .logo-menu {
-        margin: 10px;
-    }
-
-    .btn-menu {
-        display: flex;
-    }
-
-    .edit-ul-menu,
-    .edit-li-menu {
-        width: 100%;
-    }
-
-
-    .title-projects{
-        max-width: 700px;
-    }
-    h3{
-        max-width: 700px;
-        display: flex;
-        justify-content: center;
-        margin-left: 2%;
-        color: white;
-    }
-    .card-projects{
-        display: flex;
-        flex-wrap: wrap;
-        gap: 30px;
-        justify-content: center;
-    }
-
-    .card-img{
-        width: 92%;
-        display: flex;
-        justify-content: center;
-        margin-left: 2%;
-        justify-content: space-between;
-        padding: 15px;
-        border: 2px solid white;
-        border-radius: 15px;
-    }
-
-    .redirect-edit{
-        margin-top: 20px;
-        margin-left: 2%;
-        width: 0 auto;
-        height: 0 auto;
-        padding: 15px;
-        border-radius: 15px;
-        font-size: 15px;
-    }
-
-}
-
-
 @media only screen and (max-width: 400px){
-    body{
-        font-family: 'poppins', sans-serif;
-        max-width: 400px;
+    body {
+        font-family: 'Poppins', sans-serif;
+        max-width: 100%;
         margin: 0 auto;
-        color: #131314;
     }
-
-
-    .logo-menu{
+    .logo-menu {
         display: none;
     }
-
-
     .menu-superior,
     .edit-ul-menu {
         flex-direction: column;
     }
-
     .edit-ul-menu {
         text-align: center;
         margin: 0;
         height: 0;
     }
-
     .menu-superior {
         padding-top: 0;
         align-items: flex-start;
     }
-
-    .logo-menu {
-        margin: 10px;
+    .btn-menu:focus~ul {
+        height: 180px;
+        margin-top: 20px;
     }
-
     .btn-menu {
         display: flex;
     }
 
-    .edit-ul-menu,
-    .edit-li-menu {
-        width: 100%;
-    }
-
-
-    .title-projects{
+    .title-projects h3 {
         margin: 0;
-        margin-top: 50px;
-
-    }
-    h3{
-        margin: 0;
-        margin-left: 30px;
-        margin-bottom: 15px;
-        max-width: 350px;
+        padding: 0;
+        margin-top: 15px;
         display: flex;
         justify-content: center;
         align-items: center;
+        text-align: center;
         color: white;
     }
-    .card-projects{
+
+    .card-projects {
         display: flex;
         flex-wrap: wrap;
         gap: 30px;
         justify-content: center;
     }
 
-    .card-img{
+    .card-img {
         width: 85%;
         display: flex;
         justify-content: center;
         margin-left: 2%;
         justify-content: space-between;
         padding: 15px;
-        border: 2px solid white;
+        border: 2px solid #5263CC;
         border-radius: 15px;
     }
 
-    .redirect-edit{
+    .redirect-edit {
         margin-top: 20px;
         margin-left: 2%;
         width: 0 auto;
