@@ -227,4 +227,8 @@
         padding: 0;
         box-sizing: border-box;
     }
+    footer a{
+        margin: 10px;
+        text-align: center;
+    }
 }
