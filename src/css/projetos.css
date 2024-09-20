@@ -70,7 +70,7 @@ body{
 
 
 
-.title-projects h1{
+.title-projects h1,h2{
     margin: 0;
     margin-top: 50px;
     display: flex;
